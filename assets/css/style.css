@@ -55,8 +55,8 @@ p {
   height: 800px;
   width: 100%;
   margin-bottom: 25px;
-  /* background-image: url("../images/digital-marketing-meeting.jpg"); removed this and placed source information the img html element to allow for alt description */
-  object-fit: cover; /* changed this styling to object-fit to remove the deformation of the image when I added the img element */
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
   background-position: center;
 }
 
