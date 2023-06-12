@@ -26,6 +26,7 @@ body {
 }
 
 .header nav {
+  /* updated to address new semantic elements */
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -34,10 +35,12 @@ body {
 }
 
 .header nav ul {
+  /* updated to address new semantic elements */
   list-style-type: none;
 }
 
 .header nav ul li {
+  /* updated to address new semantic elements */
   display: inline-block;
   margin-left: 25px;
 }
