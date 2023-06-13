@@ -9,6 +9,11 @@ body {
 }
 
 .header {
+  /* using what we learned about position i added the following 3 lines of code to make the nav bar stick to the top of the page */
+  position: fixed;
+  top: 0;
+  width: 100%;
+
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
