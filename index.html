@@ -8,7 +8,10 @@
 
   <body>
     <header class="header">
-      <h1>Hori<span class="seo">seo</span>n</h1>
+      <!-- added anchor to the h1.  Allows the user to return to the top of the page with the repositioned header -->
+      <a href="#hero"
+        ><h1>Hori<span class="seo">seo</span>n</h1></a
+      >
       <!-- nav section: after changing the element to nav the ul items stacked vertically.  This was because the css class was .header div {}.  Updated the classes to look for the new semantic. e.g. .header nav {} -->
       <nav>
         <ul>
@@ -26,7 +29,8 @@
         </ul>
       </nav>
     </header>
-    <div class="hero"></div>
+    <!-- added id for clickable link -->
+    <div id="hero" class="hero"></div>
     <main class="content">
       <!-- added and id for this section to fix the broken nav link -->
       <section
